@@ -1,0 +1,9 @@
+A:\Mogwai.Net\Mogwai.Net\bin\Debug\netstandard2.0\Mogwai.Net.deps.json
+A:\Mogwai.Net\Mogwai.Net\bin\Debug\netstandard2.0\Mogwai.Net.dll
+A:\Mogwai.Net\Mogwai.Net\bin\Debug\netstandard2.0\Mogwai.Net.pdb
+A:\Mogwai.Net\Mogwai.Net\obj\Debug\netstandard2.0\Mogwai.Net.csprojResolveAssemblyReference.cache
+A:\Mogwai.Net\Mogwai.Net\obj\Debug\netstandard2.0\Mogwai.Net.csproj.CoreCompileInputs.cache
+A:\Mogwai.Net\Mogwai.Net\obj\Debug\netstandard2.0\Mogwai.Net.AssemblyInfoInputs.cache
+A:\Mogwai.Net\Mogwai.Net\obj\Debug\netstandard2.0\Mogwai.Net.AssemblyInfo.cs
+A:\Mogwai.Net\Mogwai.Net\obj\Debug\netstandard2.0\Mogwai.Net.dll
+A:\Mogwai.Net\Mogwai.Net\obj\Debug\netstandard2.0\Mogwai.Net.pdb
