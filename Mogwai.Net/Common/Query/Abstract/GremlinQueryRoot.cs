@@ -4,7 +4,7 @@
 
 	public abstract class GremlinQueryRoot
     {
-	    protected StringBuilder Query { get; set; }
+		protected StringBuilder Query { get; set; } = new StringBuilder();
 
 	    public override string ToString() 
 		    => this.Query.ToString();
