@@ -22,8 +22,8 @@ x86/
 bld/
 [Bb]in/
 [Bb]in/*
-/[Bb]in
-/[Oo]bj
+**/[Bb]in
+**/[Oo]bj
 [Oo]bj/
 [Oo]bj/*
 [Ll]og/
