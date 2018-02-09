@@ -22,9 +22,12 @@ x86/
 bld/
 [Bb]in/
 [Bb]in/*
+/[Bb]in
+/[Oo]bj
 [Oo]bj/
 [Oo]bj/*
 [Ll]og/
+
 
 # Visual Studio 2015 cache/options directory
 .vs/
