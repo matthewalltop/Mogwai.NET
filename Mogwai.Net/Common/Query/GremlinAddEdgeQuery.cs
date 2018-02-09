@@ -15,5 +15,11 @@
 			this.Query.Append($".to(g.V('{toNode}'))");
 			return this.ToString();
 		}
+
+		public string To(IGremlinQuery query)
+		{
+			this.Query.Append($".to({query.ToString()})");
+			return this.ToString();
+		}
 	}
 }

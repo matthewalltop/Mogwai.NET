@@ -18,6 +18,13 @@
 		}
 
 		/// <inheritdoc />
+		public GremlinQuery V()
+		{
+			this.Query.Append($"V()");
+			return new GremlinQuery(this.Query);
+		}
+
+		/// <inheritdoc />
 		public GremlinQuery V(string name)
 		{
 			this.Query.Append($"V('{name}')");
@@ -30,5 +37,9 @@
 			this.Query.Append($"V({itemCount})");
 			return new GremlinQuery(this.Query);
 		}
+
+
+
+
 	}
 }

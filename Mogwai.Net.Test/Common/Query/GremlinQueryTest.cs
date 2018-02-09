@@ -49,5 +49,21 @@
 		}
 
 
+		[Fact]
+		public void GremlinComplexAddEdgeQueryCorrectlyFormats()
+		{
+			// Arrange
+			var g = new G();
+			var g2 = new G();
+
+			// Act
+			var result = g.V().HasLabel("Person").Has("firstName", "Matthew").AddE("knows").To(g2.V().HasLabel("Person").Has("firstName", "Corene"));
+
+
+			// Assert
+			result.Should().BeEquivalentTo("g.V().hasLabel('Person').has('firstName','Matthew').addE('knows').to(g.V().hasLabel('Person').has('firstName','Corene'))");
+		}
+
+
     }
 }
